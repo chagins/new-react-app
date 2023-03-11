@@ -41,6 +41,13 @@ module.exports = {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "@typescript-eslint/no-explicit-any": "error",
     "import/no-extraneous-dependencies": 0,
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: ['arrow-function', 'function-declaration'],
+        unnamedComponents: 'arrow-function',
+      },
+    ],
   },
   'settings': {
     "react": {
